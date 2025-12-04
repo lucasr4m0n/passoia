@@ -7,20 +7,23 @@ footer{
     height: 30vh;
     align-items: center;
     margin-left: 50px;
+    
 
-    h4 {
-            padding-bottom: 20px;
-        }
+    h4{
+        margin-top: 20px;
+        padding-bottom: 20px;
+        font-size: larger;
+    }
 
     nav{
         li{
-           list-style: none;
-           color: #2D2D2D;
-           font-weight: 300;
-           padding: 5px;
+            list-style: none;
+            color:#2D2D2D;
+            font-weight: 300;
+            padding: 5px;
+            cursor: pointer;
         }
     }
-
 }
 
 .pagamento{
@@ -39,8 +42,13 @@ footer{
 .redes{
     figure{
         width: 30vw;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    
+        img{
+            cursor: pointer;
+        }
     }
+
 }

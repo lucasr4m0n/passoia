@@ -75,6 +75,7 @@ function Lancamentos() {
           </p>
         </section>
       </div>
+      <h2 id="novidade">Novidades para você</h2>
     </section>
   );
 }

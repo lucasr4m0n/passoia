@@ -1,17 +1,21 @@
 import "./produtos.scss"
+import olhos from "../../assets/olhos.png";
+import labios from "../../assets/labios.png";
+import rosto from "../../assets/rosto.png";
+import tendencia from "../../assets/tendencia.png";
 
-function Produtos() {
-    return (
-      <section className="produtos">
-        <h2>LOOKS E DICAS DE MAQUIAGEM</h2>
-        <figure>
-          <img src="./gloss.png" alt="Imagem de produto" />
-          <img src="make.png" alt="Imagem de produto" />
-          <img src="./pincel.png" alt="Imagem de produto" />
-          <img src="sombra.png" alt="Imagem de produto" />
-        </figure>
-      </section>
-    );
+function Produto(){
+    return(
+        <section className="produtos" id="produto">
+            <h2 >LOOKS E DICAS DE MAQUIAGEM</h2>
+            <figure>
+                <img src={labios} alt="mulher passando gloss nos labios" />
+                <img src={olhos} alt="olho verde com sombras e delineado feito" />
+                <img src={rosto} alt="mulher passando base no rosto" />
+                <img src={tendencia} alt="mulher com um pote de blush do lado do rosto" />
+            </figure>
+        </section>
+    )
 }
 
-export default Produtos
+export default Produto;
